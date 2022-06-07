@@ -23,7 +23,7 @@ function App() {
   useEffect(async () => {
     
     console.log("i am in get")
-    const retres =await axios.get("http://localhost:3050/video/unseen", {
+    const retres =await axios.get("https://digitaltrafic.herokuapp.com/video/unseen", {
         }).then(res =>{  
             
             // SetRow1(res.data);
@@ -38,7 +38,7 @@ function App() {
 // Current Violation
 useEffect(async () => {
   console.log("i am in get")
-  const retres =await axios.get("http://localhost:3050/video/seen", {
+  const retres =await axios.get("https://digitaltrafic.herokuapp.com/video/seen", {
       }).then(res =>{  
           
           // SetRow1(res.data);

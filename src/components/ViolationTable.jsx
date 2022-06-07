@@ -15,7 +15,7 @@ export default function ViolationTable(props) {
   const seeViolation = (id)=>{
     axios.request({
         method: 'PUT',
-        url: `http://localhost:3050/video/isreadfalse`,
+        url: `https://digitaltrafic.herokuapp.com/video/isreadfalse`,
        
         data: {
           id: id

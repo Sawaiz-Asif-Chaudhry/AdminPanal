@@ -15,7 +15,7 @@ e.preventDefault()
   const seeViolation = (id)=>{
     axios.request({
         method: 'PUT',
-        url: `http://localhost:3050/video/isreadtrue`,
+        url: `https://digitaltrafic.herokuapp.com/video/isreadtrue`,
        
         data: {
           id: id
